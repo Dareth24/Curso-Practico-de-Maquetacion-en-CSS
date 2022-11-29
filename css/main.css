@@ -69,3 +69,50 @@ nav .profile a {
     color: black;
     border-bottom: 1px solid black;
 }
+
+main {
+    height: calc(100% - 140px);
+    font-family: monospace;
+}
+
+.main__container {
+    height: 100%;
+    background-image: url(/assets/img/Cover.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.main__button_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.main__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #47cfac;
+}
+
+.main__button a {
+    font-size: 20px;
+    font-weight: bold;
+}
