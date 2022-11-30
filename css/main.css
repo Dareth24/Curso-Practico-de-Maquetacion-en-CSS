@@ -70,16 +70,17 @@ nav .profile a {
     border-bottom: 1px solid black;
 }
 
-main {
+.home_main {
     height: calc(100% - 140px);
     font-family: monospace;
+    background-image: url('../assets/img/Cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main__container {
     height: 100%;
-    background-image: url(/assets/img/Cover.png);
-    background-size: cover;
-    background-position: center;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
@@ -91,6 +92,7 @@ main {
     justify-content: center;
     margin: 0;
     font-size: 40px;
+    font-weight: bold;
     letter-spacing: 10px;
     color: white;
 }
