@@ -1,4 +1,5 @@
 body {
+    font-family:'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -72,7 +73,6 @@ nav .profile a {
 
 .home_main {
     height: calc(100% - 140px);
-    font-family: monospace;
     background-image: url('../assets/img/Cover.png');
     background-size: cover;
     background-position: center;
@@ -88,6 +88,7 @@ nav .profile a {
 }
 
 .main__title {
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -115,6 +116,7 @@ nav .profile a {
 }
 
 .main__button a {
+    font-family:'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
